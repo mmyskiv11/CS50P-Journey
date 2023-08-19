@@ -23,3 +23,18 @@ res = foo / bar
 
 print(res)
 print(f"{res:.2f}")
+
+# Python Function with Return Value
+
+
+def main():
+    x = int(input("What's the number of x? "))
+    print("Squared of X is", square(x))
+
+
+def square(n):
+    return n ** 2
+
+
+main()
+square(2)
