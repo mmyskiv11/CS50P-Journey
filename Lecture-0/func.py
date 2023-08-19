@@ -1,10 +1,10 @@
 def main():
     name = input("What's your name? ").strip().title()
-    hello()
+    hello(name)
 
 
-def hello():
-    print("Hello,", name)
+def hello(to="world"):
+    print("Hello,", to)
 
 
 main()
