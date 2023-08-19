@@ -42,3 +42,6 @@ print(f"Hello, {name}")
 name = name.strip().title()
 print(f"Hello, {name}")
 print(f"My favorite book is \"{book}\"")
+
+first, last = name.split(" ", maxsplit=1)
+print(f"Hello, {last}")
