@@ -10,6 +10,7 @@ print(x + y)
 a = float(input("Enter the value of A: "))
 b = float(input("Enter the value of B: "))
 
-c = round(a + b, ndigits=2)
+c = round(a + b)
 
 print(c)
+print(f"{c:,}")
