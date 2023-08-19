@@ -14,3 +14,12 @@ c = round(a + b)
 
 print(c)
 print(f"{c:,}")
+
+# Division
+foo = float(input("Enter the value of foo: "))
+bar = float(input("Enter the value of bar: "))
+
+res = foo / bar
+
+print(res)
+print(f"{res:.2f}")
